@@ -1,9 +1,6 @@
-(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-ea855c1~58~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-0633d90~59~ubuntu16.04.1)
 
   (general
-    (links 0)
-    (no_connects 0)
-    (area 69.481699 72.021699 190.868301 138.798301)
     (thickness 1.6)
     (drawings 6)
     (tracks 0)
@@ -38,7 +35,7 @@
     (46 B.CrtYd user)
     (47 F.CrtYd user)
     (48 B.Fab user)
-    (49 F.Fab user)
+    (49 F.Fab user hide)
   )
 
   (setup
@@ -162,7 +159,7 @@
     (diff_pair_width 0.254)
   )
 
-  (module template_5x3:MODULAR_DEVICE_BASE_5X3_MALE (layer F.Cu) (tedit 59273D32) (tstamp 589B7BA4)
+  (module template_5x3:MODULAR_DEVICE_BASE_5X3_MALE (layer F.Cu) (tedit 59284569) (tstamp 589B7BA4)
     (at 91.44 105.41)
     (path /589B83C9)
     (fp_text reference MDB1 (at 0 0) (layer F.SilkS) hide
@@ -179,10 +176,10 @@
     (fp_line (start -20.32 -31.75) (end 43.18 -31.75) (layer B.SilkS) (width 0.381))
     (fp_line (start -20.32 31.75) (end 43.18 31.75) (layer B.SilkS) (width 0.381))
     (fp_line (start -20.32 29.21) (end 43.18 29.21) (layer B.SilkS) (width 0.381))
-    (fp_line (start 99.06 -33.02) (end -21.59 -33.02) (layer F.Fab) (width 0.2286))
-    (fp_line (start 99.06 33.02) (end 99.06 -33.02) (layer F.Fab) (width 0.2286))
-    (fp_line (start -21.59 33.02) (end 99.06 33.02) (layer F.Fab) (width 0.2286))
-    (fp_line (start -21.59 -33.02) (end -21.59 33.02) (layer F.Fab) (width 0.2286))
+    (fp_line (start 99.695 -33.655) (end -21.59 -33.655) (layer F.Fab) (width 0.2286))
+    (fp_line (start 99.695 33.655) (end 99.695 -33.655) (layer F.Fab) (width 0.2286))
+    (fp_line (start -21.59 33.655) (end 99.695 33.655) (layer F.Fab) (width 0.2286))
+    (fp_line (start -21.59 -33.655) (end -21.59 33.655) (layer F.Fab) (width 0.2286))
     (fp_line (start 43.18 -29.21) (end 43.18 -31.75) (layer B.SilkS) (width 0.381))
     (fp_line (start -20.32 -31.75) (end -20.32 -29.21) (layer B.SilkS) (width 0.381))
     (fp_line (start 43.18 31.75) (end 43.18 29.21) (layer B.SilkS) (width 0.381))
@@ -243,10 +240,10 @@
     (pad GND thru_hole oval (at -16.51 -30.48) (size 1.8542 2.54) (drill 1.0922) (layers *.Cu *.Mask))
   )
 
-  (gr_line (start 190.5 72.39) (end 69.85 72.39) (angle 90) (layer Edge.Cuts) (width 0.2286))
-  (gr_line (start 190.5 138.43) (end 190.5 72.39) (angle 90) (layer Edge.Cuts) (width 0.2286))
-  (gr_line (start 69.85 138.43) (end 190.5 138.43) (angle 90) (layer Edge.Cuts) (width 0.2286))
-  (gr_line (start 69.85 72.39) (end 69.85 138.43) (angle 90) (layer Edge.Cuts) (width 0.2286))
+  (gr_line (start 191.135 71.755) (end 69.85 71.755) (angle 90) (layer Edge.Cuts) (width 0.2286))
+  (gr_line (start 191.135 139.065) (end 191.135 71.755) (angle 90) (layer Edge.Cuts) (width 0.2286))
+  (gr_line (start 69.85 139.065) (end 191.135 139.065) (angle 90) (layer Edge.Cuts) (width 0.2286))
+  (gr_line (start 69.85 71.755) (end 69.85 139.065) (angle 90) (layer Edge.Cuts) (width 0.2286))
   (gr_text https://github.com/janelia-modular-devices (at 102.87 133.35) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.1905)))
   )
