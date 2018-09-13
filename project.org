@@ -1,8 +1,9 @@
 * Header                                                           :noexport:
 
-  #+MACRO: template_5x3
+  #+MACRO: name template_5x3
   #+MACRO: version 1.0
   #+MACRO: license Open-Source Hardware
+  #+MACRO: url https://github.com/janelia-kicad/template_5x3
   #+AUTHOR: Peter Polidoro
   #+EMAIL: peterpolidoro@gmail.com
 
@@ -12,4 +13,4 @@
 
 * Assembly Instructions
 
-  - First...
+  - Solder surface mount and through hole components onto the pcb.
